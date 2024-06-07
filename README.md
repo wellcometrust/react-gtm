@@ -1,8 +1,8 @@
 [![Build Status](https://img.shields.io/travis/alinemorelli/react-gtm/master.svg?style=flat-square)](https://travis-ci.org/alinemorelli/react-gtm)
-[![npm version](https://img.shields.io/npm/v/react-gtm-module.svg?style=flat-square)](https://www.npmjs.com/package/react-gtm-module)
-[![npm downloads](https://img.shields.io/npm/dm/react-gtm-module.svg?style=flat-square)](https://www.npmjs.com/package/react-gtm-module)
+[![npm version](https://img.shields.io/npm/v/react-gtm.svg?style=flat-square)](https://www.npmjs.com/package/react-gtm)
+[![npm downloads](https://img.shields.io/npm/dm/react-gtm.svg?style=flat-square)](https://www.npmjs.com/package/react-gtm)
 
-# react-gtm-module
+# react-gtm
 ### React Google Tag Manager Module
 
 This is a Javascript module to [React](https://facebook.github.io/react/) based apps that implement Google Tag Manager. It is designed to use [GTM](https://developers.google.com/tag-manager/quickstart) snippet.
@@ -14,7 +14,7 @@ You can easily use custom dataLayer, multiple dataLayers and additional events.
 [npm](https://www.npmjs.com/):
 
 ```bash
-npm install react-gtm-module --save
+npm install react-gtm --save
 ```
 
 ## Usage
@@ -28,7 +28,7 @@ import Router from 'react-router'
 import routes from './routes'
 
 ...
-import TagManager from 'react-gtm-module'
+import TagManager from 'react-gtm'
 
 const tagManagerArgs = {
     gtmId: 'GTM-000000'
@@ -53,7 +53,7 @@ import Router from 'react-router'
 import routes from './routes'
 
 ...
-import TagManager from 'react-gtm-module'
+import TagManager from 'react-gtm'
 
 const tagManagerArgs = {
     gtmId: 'GTM-000000',
@@ -85,7 +85,7 @@ import Router from 'react-router'
 import routes from './routes'
 
 ...
-import TagManager from 'react-gtm-module'
+import TagManager from 'react-gtm'
 
 const tagManagerArgs = {
     gtmId: 'GTM-000000',
@@ -106,7 +106,7 @@ And send your data in each page you want
 import React from 'react'
 
 ...
-import TagManager from 'react-gtm-module'
+import TagManager from 'react-gtm'
 
 const tagManagerArgs = {
     dataLayer: {
@@ -146,7 +146,7 @@ import Router from 'react-router'
 import routes from './routes'
 
 ...
-import TagManager from 'react-gtm-module'
+import TagManager from 'react-gtm'
 
 const tagManagerArgs = {
     gtmId: 'GTM-000000',
@@ -175,7 +175,7 @@ import Router from 'react-router'
 import routes from './routes'
 
 ...
-import TagManager from 'react-gtm-module'
+import TagManager from 'react-gtm'
 
 const tagManagerArgs = {
     gtmId: 'GTM-000000',
